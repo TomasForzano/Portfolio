@@ -1,0 +1,188 @@
+/*ARCHIVO DE ESTILOS*/
+
+/*IMÁGENES*/
+
+.blanco{
+    position: absolute;
+
+    width: 90%;
+    top: 80px;
+    left: 80px;
+}
+.amarillo{
+    position: absolute;
+    
+    width: 90%;
+    height: 6px;
+    top: 80px;
+    left: 80px;
+}
+.perfil{
+    border-radius: 20%;
+    height: 200px;
+    padding: 5px ;
+    background-color: #555;
+    
+    position: absolute;
+    top: 140px;
+    left: 100px;
+
+    z-index: 100;
+}
+.logo{
+    position: absolute;
+    height: 35px;
+    
+    top: 142px;
+    right: 90px;
+   
+    z-index: 100;
+}
+
+/*TEXTOS*/
+
+/*CLASES*/
+
+.contactotit{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 20px;
+
+    position: absolute;
+    left: 330px;
+    top: 245px;
+}
+.contactotext{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 16px;
+
+    position: absolute;
+    left: 330px;
+    top: 280px;
+}
+.titulo1{
+    color: #FFFFFF;
+    font-family: "Exo 2 Light";
+
+    background-color: #839995;
+    padding-left: 30px ;
+    padding-top: 6px ;
+    padding-bottom: 8px ;
+    
+    position: absolute;
+    top: 350px;
+    left: 80px ;
+    right: 71px;
+}
+.parrafo{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 16px;
+
+    text-align: justify;
+    position: absolute;
+    left: 110px;
+    right: 110px;
+    top: 400px;
+}
+.titulo2{
+    color: #FFFFFF;
+    font-family: "Exo 2 Light";
+
+    background-color: #839995;
+    padding-left: 30px ;
+    padding-top: 6px ;
+    padding-bottom: 8px ;
+    
+    position: absolute;
+    top: 480px;
+    left: 80px ;
+    right: 71px;
+}
+.parrafo2{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 16px;
+
+    position: absolute;
+    left: 85px;
+    right: 110px;
+    top: 530px;
+}
+.titulo3{
+    color: #FFFFFF;
+    font-family: "Exo 2 Light";
+
+    background-color: #839995;
+    padding-left: 30px ;
+    padding-top: 6px ;
+    padding-bottom: 8px ;
+    
+    position: absolute;
+    top: 630px;
+    left: 80px ;
+    right: 71px;
+}
+.parrafo3{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 16px;
+
+    position: absolute;
+    left: 85px;
+    right: 110px;
+    top: 680px;
+}
+h1{
+    color: #FFFFFF;
+    font-family: "Exo 2 Black";
+    font-size: 40px;
+
+    background-color: #839995;
+    padding-left: 250px ;
+    padding-top: 6px ;
+    padding-bottom: 8px ;
+    
+    position: absolute;
+    top: 100px;
+    left: 80px ;
+    right: 71px;
+}
+h2{
+    color: rgb(255, 193, 37);
+    font-family: "Exo 2 Light";
+    font-size: 25px;
+
+    position: absolute;
+    top: 180px;
+    left: 330px;
+}
+h3{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 20px;
+
+    position: absolute;
+    top: 350px;
+    left: 110px;
+}
+h4{
+    color: #333;
+    font-family: "Exo 2 Light";
+    font-size: 20px;
+}
+
+/*IDs*/
+
+#linkGitHub{
+    position: absolute;
+    top: 185px;
+    left: 1360px;
+}
+#linkUNRaf{
+    position: absolute;
+    font-family: "Exo 2 Light";
+    top: 185px;
+    left: 1270px;
+}
