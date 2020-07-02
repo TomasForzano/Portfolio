@@ -146,6 +146,20 @@
   position: absolute;
   top: 755px;
   left: 80px;
+  right: 700px;
+}
+.titulo5 {
+  color: #ffffff;
+  font-family: "Exo 2 Light";
+
+  background-color: #839995;
+  padding-left: 520px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+
+  position: absolute;
+  top: 755px;
+  left: 800px;
   right: 71px;
 }
 h1 {
