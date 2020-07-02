@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <body id="background1" background="../images/background1.jpg"></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil | Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+  </head>
+
+  <body>
+    <img class="blanco" src="../images/background2.jpg" />
+    <img class="amarillo" src="../images/background3.jpg" />
+    <img
+      class="perfil"
+      src="../images/pp.jpg"
+      alt="Foto de perfil"
+      title="Foto de perfil"
+    />
+    <img class="logo" src="../images/logo.png" alt="Logo UNRaf" title="UNRaf" />
+
+    <h1>Calculadora</h1>
+
+    <h3 id="linkUNRaf">
+      <a
+        href="https://campusvirtual.unraf.edu.ar/user/profile.php?id=3436"
+        target="_blank"
+        title="Perfil de UNRaf"
+        >UNRaf</a
+      >
+    </h3>
+    <h3 id="linkGitHub">
+      <a
+        href="https://github.com/TomasForzano"
+        target="_blank"
+        title="Perfil de GitHub"
+        >GitHub</a
+      >
+    </h3>
+
+    <a href="./indice.html"><h2 class="volver">Volver</h2></a>
+
+    <h2 class="numeros">Ingrese dos números y elija la operación deseada:</h2>
+
+    <div class="contenedor">
+   
+      <br />
+      <br />
+      <input id="a" type="number" />
+      <input id="b" type="number" />
+      <input
+        type="button"
+        onclick="suma(document.getElementById('a').value,document.getElementById('b').value);"
+        value="Sumar"
+      />
+      <input
+        type="button"
+        onclick="resta(document.getElementById('a').value,document.getElementById('b').value);"
+        value="Restar"
+      />
+      <input
+        type="button"
+        onclick="multiplicacion(document.getElementById('a').value,document.getElementById('b').value);"
+        value="Multiplicar"
+      />
+      <input
+        type="button"
+        onclick="division(document.getElementById('a').value,document.getElementById('b').value);"
+        value="Dividir"
+      />
+    </div>
+
+    <script type="text/javascript">
+      function suma(a, b) {
+        var r = Number(a) + Number(b);
+        alert("Resultado: " + r);
+      }
+      function resta(a, b) {
+        var r = Number(a) - Number(b);
+        alert("Resultado: " + r);
+      }
+      function multiplicacion(a, b) {
+        var r = Number(a) * Number(b);
+        alert("Resultado: " + r);
+      }
+      function division(x, y) {
+        var r = Number(x) / Number(y);
+        alert("Resultado: " + r);
+      }
+    </script>
+  </body>
+</html>
