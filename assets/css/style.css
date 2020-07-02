@@ -347,19 +347,20 @@ h4 {
 
 /*Calculadora*/
 
-.contenedor{
-    font-family: "Exo 2 Light";
+.contenedor {
+  font-family: "Exo 2 Light";
 
-    position: absolute;
-    top: 288px; left: 330px;
-    color: #839995;
+  position: absolute;
+  top: 288px;
+  left: 330px;
+  color: #839995;
 }
-.numeros{
-    font-family: "Exo 2 Light";
-  
-    position: absolute;
-    color: rgb(255, 193, 37);
-    font-size: 30px;
-    top: 230px;
-    left: 330px;
-  }
+.numeros {
+  font-family: "Exo 2 Light";
+
+  position: absolute;
+  color: rgb(255, 193, 37);
+  font-size: 30px;
+  top: 230px;
+  left: 330px;
+}
